@@ -1,0 +1,38 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Then add additional custom code here
+.circle {
+	border-radius: 50%;
+	height: 25.5em;
+	width: 25.5em;
+}
+
+.circle-mini {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+
+.image-card {
+	height: 180px;
+	width: 280px;
+}
+
+@media (max-width: 720px) {
+	.quemSomos-p,
+	.quemSomos-h3 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1024px) {
+	.circle {
+		height: 20.5em;
+		width: 20.5em;
+	}
+}
