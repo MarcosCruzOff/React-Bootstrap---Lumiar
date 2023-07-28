@@ -14,7 +14,7 @@ export function CardsProduto() {
 					<Card.Text>com notas de jasmim e sândalo </Card.Text>
 					<div className="d-flex justify-content-between">
 						<Button variant="primary">Comprar</Button>
-						<h2 class="text-success">109,00$</h2>
+						<h2 className="text-success">109,00$</h2>
 					</div>
 				</Card.Body>
 			</Card>

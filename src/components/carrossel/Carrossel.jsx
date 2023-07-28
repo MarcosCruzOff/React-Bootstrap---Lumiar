@@ -18,14 +18,16 @@ export function Carrossel() {
 					text="First slide"
 					fluid
 				/>
-				<Carousel.Caption>
-					<h3>First slide label</h3>
+				<Carousel.Caption className="text-secondary bg-light bg-gradient">
+					<h3>Kit Cuidado Facial Completo</h3>
 					<p>
-						Nulla vitae elit libero, a pharetra augue mollis
-						interdum.
+						Cuide da sua pele com nosso kit completo! Inclui
+						limpador facial, tônico, sérum hidratante e creme
+						rejuvenescedor
 					</p>
 				</Carousel.Caption>
 			</Carousel.Item>
+
 			<Carousel.Item>
 				<Image
 					className="d-block w-100"
@@ -33,13 +35,16 @@ export function Carrossel() {
 					text="Second slide"
 					fluid
 				/>
-				<Carousel.Caption>
-					<h3>Second slide label</h3>
+				<Carousel.Caption className="text-secondary bg-light bg-gradient">
+					<h3>Loção Corporal Relaxante - Aroma Lavanda - 250ml</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Mime-se com nossa loção corporal relaxante! Com o aroma
+						calmante de lavanda, sua pele ficará hidratada e
+						perfumada.
 					</p>
 				</Carousel.Caption>
 			</Carousel.Item>
+
 			<Carousel.Item>
 				<Image
 					className="d-block w-100"
@@ -47,14 +52,16 @@ export function Carrossel() {
 					text="Third slide"
 					fluid
 				/>
-				<Carousel.Caption>
-					<h3>Third slide label</h3>
+				<Carousel.Caption className="text-secondary bg-light bg-gradient">
+					<h3>Nauthy de Juventude Radiante - 30ml</h3>
 					<p>
-						Praesent commodo cursus magna, vel scelerisque nisl
-						consectetur.
+						Revitalize sua pele com nosso sérum poderoso! Com
+						ingredientes avançados, este sérum reduzirá linhas finas
+						e rugas, deixando sua pele radiante e jovem
 					</p>
 				</Carousel.Caption>
 			</Carousel.Item>
+
 			<Carousel.Item>
 				<Image
 					className="d-block w-100"
@@ -62,11 +69,12 @@ export function Carrossel() {
 					text="Third slide"
 					fluid
 				/>
-				<Carousel.Caption>
-					<h3>Third slide label</h3>
+				<Carousel.Caption className="text-secondary bg-light bg-gradient">
+					<h3>Paleta de Sombras Encantadas - Edição Limitada</h3>
 					<p>
-						Praesent commodo cursus magna, vel scelerisque nisl
-						consectetur.
+						Crie looks mágicos com nossa paleta de sombras
+						encantadoras! Com tons brilhantes e pigmentação intensa,
+						você conquistará qualquer ocasião.
 					</p>
 				</Carousel.Caption>
 			</Carousel.Item>

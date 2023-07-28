@@ -3,8 +3,8 @@ export function PaginaQuemSomos() {
 	return (
 		<section className=" py-5 my-5 text-center" id="quemSomos">
 			{/*  Título Quem Somos */}
-			<Row class="py-5 my-5 mx-auto">
-				<h2 class="text-center text-uppercase ">Quem Somos</h2>
+			<Row className="py-5 my-5 mx-auto">
+				<h2 className="text-center text-uppercase ">Quem Somos</h2>
 			</Row>
 			{/*  Conteúdo */}
 			<Row>
