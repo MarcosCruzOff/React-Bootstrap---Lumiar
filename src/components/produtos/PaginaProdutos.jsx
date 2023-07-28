@@ -24,9 +24,8 @@ export function PaginaProdutos(props) {
 							<Col
 								key={product.id}
 								products={product}
-								onAdd={onAdd}
-								className="d-flex flex-wrap">
-								<Card className="align-items-stretch">
+								onAdd={onAdd}>
+								<Card style={{ minHeight: '100%' }}>
 									<Card.Img
 										variant="top"
 										src={product.image}

@@ -1,4 +1,4 @@
-import { Row, Col, Image, Button } from 'react-bootstrap'
+import { Row, Col, Image, Button, FloatingLabel, Form } from 'react-bootstrap'
 export function Footer() {
 	return (
 		<>
@@ -66,53 +66,27 @@ export function Footer() {
 							</div>
 						</Col>
 						{/* Footer About Text */}
-						<Col lg={4} className="mb-5 mb-5 ">
+						<Col lg={4} className="mb-5 mb-5">
 							<h4 className="text-uppercase mb-4">
 								Quer ganhar cupons? Cadastra-se
 							</h4>
 							{/*  Contact Section Form */}
-							<Row className="">
-								<form>
-									<Row className="mb-3">
-										<label
-											for="inputEmail3"
-											className="col-sm-2 col-form-label">
-											Nome
-										</label>
-										<div className="col-sm-10">
-											<input
-												type="text"
-												className="form-control"
-												id="inputEmail3"
-											/>
-										</div>
-									</Row>
-									<Row className="mb-3">
-										<label
-											for="inputPassword3"
-											className="col-sm-2 col-form-label">
-											Email
-										</label>
-										<div className="col-sm-10">
-											<input
-												type="email"
-												className="form-control"
-												id="inputPassword3"
-											/>
-										</div>
-									</Row>
-
-									<Row>
-										<div className="align-self-center  ps-1 ">
-											<Button
-												type="submit"
-												className="btn btn-primary w-50 text-center me-5 ">
-												Cadastrar
-											</Button>
-										</div>
-									</Row>
-								</form>
-							</Row>
+							<FloatingLabel
+								controlId="floatingInput"
+								label="Email"
+								className="mb-3 text-body">
+								<Form.Control
+									type="email"
+									placeholder="nome@examplo.com"
+								/>
+							</FloatingLabel>
+							<FloatingLabel
+								controlId="floatingPassword"
+								label="Nome"
+								className=" text-body">
+								<Form.Control type="text" placeholder="Nome" />
+							</FloatingLabel>
+							<Button variant="primary my-3">Enviar</Button>
 						</Col>
 					</Row>
 				</div>

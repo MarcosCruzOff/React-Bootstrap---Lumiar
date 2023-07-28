@@ -2,50 +2,46 @@ const data = {
 	products: [
 		{
 			id: '1',
-			image: '/assets/produto_1.png',
-			title: 'Esmalte de Unhas CUNQUE - Cor Mistério',
-			description:
-				'Tenha unhas impecáveis por mais tempo com nosso esmalte duradouro! A cor misteriosa adiciona um toque de elegância ao seu visual.',
+			image: '/assets/produto-1.png',
+			title: 'Base Serum',
+			description: 'Cobertura leve com proteção solar',
 			price: 12,
 		},
 		{
 			id: '2',
-			image: '/assets/produto_2.png',
-			title: 'Paleta de Sombras Encantadas - Edição Limitada',
+			image: '/assets/produto-2.png',
+			title: 'Kit skin care beyou',
 			description:
-				'Crie looks mágicos com nossa paleta de sombras encantadoras! Com tons brilhantes e pigmentação intensa, você conquistará qualquer ocasião.',
+				'Para pele sensíveis e com manchas, com extrato de rosas e claramida',
 			price: 65,
 		},
 		{
 			id: '3',
-			image: '/assets/produto_3.png',
-			title: 'Máscara Capilar Reparação Profunda - 200ml',
+			image: '/assets/produto-3.png',
+			title: 'Kit de cuidados noturno',
 			description:
-				'Dê vida aos seus cabelos com nossa máscara de reparação profunda! Enriquecida com nutrientes, ela revitaliza, nutre e fortalece seus fios',
+				'Com extrato de chá verde e camomila, acalma a pele depois de um dia cheio de poluição ',
 			price: 65,
 		},
 		{
 			id: '4',
-			image: '/assets/produto_4.png',
-			title: 'Gel Esfoliante Revigorante - 100g',
-			description:
-				'Experimente a sensação de frescor com nosso gel esfoliante! Remova as impurezas e células mortas da pele, deixando-a revitalizada e suave',
+			image: '/assets/produto-4.png',
+			title: 'Serum anti-sinais',
+			description: 'Para todo o tipo de pele',
 			price: 34,
 		},
 		{
 			id: '5',
-			image: '/assets/produto_5.png',
-			title: 'Batom Hidratante Luxe - Cor Sedução',
-			description:
-				'Adicione um toque de luxo aos seus lábios com nosso batom hidratante! A cor sedutora é perfeita para qualquer ocasião, mantendo seus lábios macios e hidratados.',
+			image: '/assets/produto-5.png',
+			title: 'Esmalte menina moça',
+			description: 'Cores pastéis secagem rápida',
 			price: 25,
 		},
 		{
 			id: '6',
-			image: '/assets/produto_6.png',
-			title: 'Perfume Encantador Noturno - 50ml',
-			description:
-				'Deixe uma trilha cativante por onde passar com nosso perfume encantador! Sua fragrância envolvente e duradoura é ideal para noites especiais.',
+			image: '/assets/produto-6.png',
+			title: 'Perfume Acqua Marina',
+			description: 'Com notas de jasmine',
 			price: 120,
 		},
 	],

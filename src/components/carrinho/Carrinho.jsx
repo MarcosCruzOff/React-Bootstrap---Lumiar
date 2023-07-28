@@ -128,7 +128,7 @@ export default function Carrinho(props) {
 					<Row>
 						<Button
 							variant="outline-success"
-							onClick={() => alert('Implement Checkout!')}>
+							onClick={() => alert('Venda realizada')}>
 							Comprar
 						</Button>
 					</Row>
