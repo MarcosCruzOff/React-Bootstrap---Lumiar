@@ -37,6 +37,9 @@ function App() {
 			)
 		}
 	}
+	const onDelete = (product) => {
+		setCartItems(cartItems.filter((item) => item.id !== product.id))
+	}
 	return (
 		<>
 			<Container>
@@ -48,6 +51,7 @@ function App() {
 				<Carrinho
 					onAdd={onAdd}
 					onRemove={onRemove}
+					onDelete={onDelete}
 					cartItems={cartItems}
 				/>
 			</Container>

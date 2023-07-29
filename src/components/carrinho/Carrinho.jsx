@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap/'
 
 export default function Carrinho(props) {
-	const { cartItems, onAdd, onRemove } = props
+	const { cartItems, onAdd, onRemove, onDelete } = props
 	const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0)
 
 	return (
@@ -89,6 +89,7 @@ export default function Carrinho(props) {
 									</Button>
 									{/* botão deletar */}
 									<Button
+										onClick={() => onDelete(item)}
 										variant="outline-danger"
 										className="btn-sm border">
 										<Image
